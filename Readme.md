@@ -37,9 +37,9 @@
 
 ```js
   // base64encode 
-  util.base64encode("你好 hello world") //
+  util.base64encode("你好 hello world") // 5L2g5aW9IGhlbGxvIHdvcmxk
   // base64decode
-  util.base64decode("你好 hello world") //
+  util.base64decode("5L2g5aW9IGhlbGxvIHdvcmxk") //你好 hello world
 ```
 
 ### randomString

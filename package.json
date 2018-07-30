@@ -1,6 +1,6 @@
 {
   "name": "n-utility",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript 常用工具方法",
   "main": "./lib/index.js",
   "scripts": {
