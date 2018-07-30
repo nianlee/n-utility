@@ -1,0 +1,23 @@
+{
+  "name": "n-utility",
+  "version": "0.0.1",
+  "description": "JavaScript 常用工具方法",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "ava test/**/*.test.js",
+    "test-cov": "nyc ava test/**/*.test.js && nyc report --reporter=lcov"
+  },
+  "keywords": [
+    "javascript",
+    "utility"
+  ],
+  "author": "nianlee",
+  "license": "MIT",
+  "dependencies": {
+    "copy-to": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "nyc": "^12.0.2"
+  }
+}
